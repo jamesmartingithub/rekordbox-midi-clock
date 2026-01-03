@@ -1,5 +1,7 @@
 # Rekordbox-Midi-Clock
-(2025/2026) A midi clock for Rekordbox (or other programs that provide an ableton link connection) using Ableton Link, with optional DDJ-1000 tempo fader controls
+(2025/2026) A midi clock for Rekordbox (or other programs that provide an ableton link connection) using Ableton Link, with optional DDJ-1000 tempo fader controls.
+
+Intended to synchronise lighting control software with Rekordbox so effects can be beat-aligned with the music.
 
 ## Setup
 If you are using this to generate a midi clock for software such as QLC+, you will need to use a virtual midi driver such as LoopBe1
