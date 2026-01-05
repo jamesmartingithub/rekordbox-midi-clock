@@ -15,7 +15,7 @@ If you are using this to generate a midi clock for software such as QLC+, you wi
 - Then either:
   - Type the command 'learn' and move the fader to automatically detect and set the usb address of the controller
   - Or type the command 'check' and move the fader to identify the controller address, then type 'address=x.x.x', replacing the x's with the address parts to set the address manually.
-- Then type the command 'read' once connected to ableton link (use this command last as no commands can be used after)
+- Then type the command 'read' once connected to ableton link
 
 ## Technologies/Techniques Used:
 - Parsing of USB URBs, intercepted from USB drivers via USBPcap
