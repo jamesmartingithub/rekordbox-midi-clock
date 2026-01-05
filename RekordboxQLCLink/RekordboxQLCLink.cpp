@@ -67,7 +67,8 @@ int main()
 				printf("Invalid address: %s - example address: 1.8.5\n", address.c_str());
 			}
 		} else if (command == "read") {
-			ControllerMidiReader::Read();
+			std::thread readThread(ControllerMidiReader::Read);
+			readThread.detach();
 		} else if (command == "help") {
 			printf(HELP_STRING);
 		} else if (command == "clock") {

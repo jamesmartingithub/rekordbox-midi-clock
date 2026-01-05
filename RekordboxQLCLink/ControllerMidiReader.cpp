@@ -182,6 +182,8 @@ void ControllerMidiReader::Read() {
             std::string output;
             asio::readable_pipe rp{ ctx };
 
+            printf("Started read\n");
+
             process::v2::process proc(ctx, USBPCAP_PATH, {
             "-A",
             "-d", (address->busId == 1) ? INTERFACE_1 : INTERFACE_2,
